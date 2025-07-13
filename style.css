@@ -1,0 +1,868 @@
+header {
+    font-family: 'proxima-nova', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+body {
+    font-family: 'Inter' !important;
+}
+
+.theme-color-txt {
+    color: #02505A;
+}
+
+.theme-color-bg {
+    background-color: #02505A;
+}
+
+.dashboard {
+    background-color: #d1ecf0;
+}
+
+.button-color-bg {
+    background-color: #ff0935;
+}
+
+.dashboard h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.dashboard p {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.dashboard-cards .cards {
+    padding-bottom: 15px;
+}
+
+.dashboard-cards .cards p {
+    font-size: 16px;
+    color: #1d646d;
+    font-weight: 700;
+}
+
+.dashboard-button a {
+    padding: 15px 38px;
+    font-size: 18px;
+}
+
+.achivement-box {
+    position: relative;
+}
+
+.achivement-box::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 10px;
+    background: #e0c688;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    opacity: 0.4;
+    left: 0;
+    bottom: 0px;
+}
+
+.achievement-bg-sandal {
+    background-color: #fae1b6;
+    color: black;
+}
+
+.achievement-bg-black {
+    background-color: black;
+    color: #fae1b6;
+}
+
+.milestone-left-title {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.milestone-left-title-shadow {
+    position: relative;
+    z-index: 99;
+}
+
+.milestone-left-title-shadow::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 10px;
+    background: #1d646d;
+    border-radius: 10px;
+    opacity: 0.5;
+    left: 0;
+    bottom: 5px;
+    z-index: -1;
+}
+
+.left-text {
+    border-bottom: 1px solid gainsboro;
+}
+
+.no-border {
+    border-bottom: none;
+}
+
+.left-text h4 {
+    font-size: 20px;
+    padding: 20px 10px;
+
+}
+
+.go-right i {
+    transition: 0.4s;
+}
+
+.go-right:hover i {
+    translate: 10px;
+
+}
+
+.aside-title {
+    font-size: 40px;
+}
+
+.milestone-num {
+    font-size: 50px;
+}
+
+.milestone-p {
+    font-size: 18px;
+}
+
+/* awards section */
+.awards-bg {
+    background: url(https://static.vecteezy.com/system/resources/previews/045/795/298/non_2x/abstract-blue-stripes-wave-line-background-illustration-free-vector.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.awards-title h3 {
+    font-size: 45px;
+    
+}
+
+.awards-img img {
+    width: 99%;
+}
+
+/* .service-bg{
+    background: url("https://png.pngtree.com/png-clipart/20200901/ourlarge/pngtree-abstract-wave-dot-blue-border-png-image_2335185.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+} */
+.service-title{
+    font-size: 35px;
+}
+.service-card-head {
+    font-size: 22px;
+    font-weight: bolder;
+}
+.service-card-content{
+    font-size: 16px;
+}
+.service-card-link{
+    text-align: center;
+}
+/* poc section */
+
+.poc-green-bg{
+    background-color: #02363d;
+}
+.poc-green-head{
+    font-size: 55px;
+    font-weight: 900 !important;
+}
+.poc-red-button{
+    font-size: 26px;
+}
+
+/* success story */
+
+.success-story-title h3{
+    font-size: 40px;
+}
+.success-story-card-right-border{
+        border-right: 2px dashed rgb(212, 210, 210);
+}
+.success-story-card-row-border{
+    border-bottom:  2px dotted rgb(155, 152, 152);
+}
+.digital-solution{
+    background-color: rgb(243, 242, 242);
+}
+.digital-solution-title h3{
+    font-size: 40px;
+}
+.digital-solution-card{
+    background: url("https://www.contus.com/assets/image/new-home/cards-bg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.digital-solution-card-title h3{
+    font-size: 25px;   
+}
+.lets-talk-title{
+     color: #1d646d;
+     font-size: 50px;
+}
+.lets-talk-img img{
+    width: 100%;
+
+}
+.booking-title{
+    font-size: 45px;
+}
+.product-title{
+    font-size: 40px;
+}
+.partner-bg{
+    background-color: #ffcf7c2e;
+}
+.partner-img img{
+    width: 99%;
+}
+.hashtag{
+    color: rgb(142, 218, 28);
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.workplace-right img{
+    width: 100%;
+      
+}
+.footer-dark-bg{
+    background-color: #02363d;
+}
+.services-p p{
+    margin-bottom:10px ;
+}
+.copyright img{
+    width: 100%;
+}
+@media(min-width:360px) and (max-width:759px) {
+    .dashboard-title h1 {
+        font-size: 27px;
+        padding-bottom: 10px;
+
+    }
+
+    .dashboard-title p {
+        font-size: 14px;
+    }
+
+    .logos p {
+        font-size: 16px;
+    }
+
+    .logos img {
+
+        width: 90%;
+
+    }
+
+    .milestone-left-title {
+        font-size: 21px;
+    }
+
+    .milestone-left-title-shadow::after {
+        height: 5px;
+    }
+
+    .aside-title {
+        font-size: 30px;
+    }
+
+    .achievement {
+        padding: 20px;
+    }
+
+
+    .achivement-box::after {
+        display: none;
+    }
+
+    .milestone-num {
+        font-size: 20px;
+        margin: 0px;
+    }
+
+    .milestone-p {
+        font-size: 13px;
+        margin: 0px;
+    }
+
+    .aside-pad {
+        padding: 18px 20px;
+    }
+
+    .left-text h4 {
+        font-size: 14px;
+    }
+
+    .left-text {
+        padding: 2px 1px;
+    }
+
+    .awards-title h3 {
+        font-size: 27px;
+    }
+    .service-title{
+    font-size: 30px;
+}
+.service-title{
+    font-size: 24px;
+}
+
+.service-card-head h4{
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 10px 0px;
+}
+.service-card-content{
+    font-size: 14px;
+}
+.poc-green-head{
+    font-size: 25px;
+}
+.poc-red-button{
+    font-size: 16px;
+}
+.success-story-card{
+        border-bottom: 2px dashed rgb(155, 152, 152);
+}
+.success-story-card-none{
+        border-bottom: none;
+}
+.success-story-title h3{
+    font-size: 20px;
+}
+.success-story-card-content{
+    font-size: 16px;
+}
+.success-story-card-achievement{
+    padding-bottom: 20px;
+}
+.success-story-card-right-border{
+        border-right:none;
+}
+.success-story-card-row-border{
+        border-bottom: none;
+}
+.digital-solution-title h3{
+    font-size: 25px;
+}
+.digital-solution-card-title h3{
+    font-size: 20px;   
+}
+.lets-talk-img{
+    display: none;
+}
+.lets-talk-p{
+    display: none;
+}
+.lets-talk-title{
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.lets-talk-button{
+    text-align: center;
+}
+.booking-title{
+    font-size: 22px;
+    text-align: center;
+}
+.booking-p{
+    text-align: center;
+}
+.product-row-border{
+    border-bottom: 2px dashed grey;
+}
+.product-title{
+    font-size: 25px;
+}
+.partner-section{
+    text-align: center;
+}
+
+.partner-img img{
+  display: none;
+}
+.workplace-right img{
+     display: none;
+ 
+}
+.social-media img {
+    display: none;
+}
+.social-media p {
+    display: none;
+}
+.location-p p{
+    font-size: 12px;
+}
+.about-row-border{
+    border-bottom: 1px solid rgb(179, 177, 177);
+        border-right: none !important;
+
+}
+.service-title-hide{
+    display: none;
+}
+.copyright img{
+    width: 99%;
+}
+}
+
+
+@media(min-width:760px) and (max-width:990px) {
+    .dashboard-title h1 {
+        font-size: 35px;
+        padding-bottom: 10px;
+
+    }
+
+    .dashboard-title p {
+        font-size: 16px;
+    }
+
+    .logos p {
+        font-size: 18px;
+    }
+
+    .logos img {
+        width: 95%;
+    }
+
+    .milestone-left-title {
+        font-size: 38px;
+    }
+
+    .milestone-left-title-shadow::after {
+        height: 7px;
+    }
+
+    .milestone-num {
+        font-size: 35px;
+        margin-right: 10px;
+        margin: 0px;
+    }
+
+    .milestone-p {
+        font-size: 16px;
+        margin: 0px;
+    }
+
+
+    .achivement-box::after {
+        display: none;
+    }
+
+    .left-text h4 {
+        font-size: 16px;
+    }
+
+    .left-text {
+        padding: 5px 2px;
+    }
+
+    .milestone-left-title {
+        font-size: 25px;
+    }
+     .awards-title h3 {
+        font-size: 32px;
+    }
+    .service-title{
+    font-size: 28px;
+}
+  
+
+.service-card-head h4{
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px 0px;
+}
+.service-card-content{
+    font-size: 16px;
+}
+.poc-green-head{
+    font-size: 32px;
+}
+.poc-red-button{
+    font-size: 18px;
+}
+.success-story-title h3{
+    font-size: 30px;
+}
+.success-story-card-right-border{
+        border-right: none;
+}
+.success-story-card-row-border{
+        border-bottom: none;
+}
+.success-story-card{
+        border-bottom: 2px dashed rgb(155, 152, 152);
+}
+.success-story-card-none{
+        border-bottom: none;
+}
+.lets-talk-img{
+    display: none;
+}
+.lets-talk-p{
+    display: none;
+}
+.lets-talk-title{
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.lets-talk-button{
+    text-align: center;
+}
+.product-row-border{
+    border-bottom: 2px dashed grey;
+}
+.product-title{
+    font-size: 35px;
+}
+.partner-section{
+    text-align: center;
+} 
+.partner-img img{
+    width: 70%;
+}
+.workplace-right img{
+    width: 100%;
+}
+.social-media img {
+    display: none;
+}
+.social-media p {
+    display: none;
+}
+.we-are-section{
+    border-bottom: 2px solid gainsboro;
+}
+.about-row-border{
+    border-bottom: 1px solid rgb(197, 195, 195);
+    border-right: none !important;
+}
+
+.service-title-hide{
+    display: none;
+}
+}
+
+@media(min-width:1024px) and (max-width:1439px) {
+    .logos img {
+        width: 95%;
+    }
+    .poc-green-head{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.poc-red-button{
+    font-size: 18px;
+}
+.workplace-right img{
+    width: 100%;
+}
+.social-media img {
+    display: none;
+}
+.social-media p {
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+/* service page */
+.service-title-h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.service-title-p{
+    font-size: 20px;
+    color: rgb(209, 209, 209);
+}
+.service-hero-checkbox p{
+    font-size: 18px;
+}
+.service-logo .logos p{
+    font-size: 20px;
+}
+.service-title-h3{
+    font-size: 40px;
+}
+.agent-el{
+    color: ghostwhite;
+}
+.agent-row-2{
+    font-size: 19px;
+    font-weight: 600;
+}
+.agent-row-5  img{
+    width: 60%;
+}
+.automation-left .row-1{
+    position: relative;
+}
+.automation-left .row-1::after{
+    content: "";
+    width: 95%;
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 3px solid rgb(230, 222, 222);
+}
+.onboard-card{
+    position: relative;
+}
+.onboard-card::after{
+    border-bottom: 2px dashed gray;
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 105px;
+}
+.onboard-card-content  p{
+    font-size: 18px;
+}
+.department-list h4{
+    text-align: center;
+    font-size: 20px;
+}
+.department-list-bg:hover{
+    background-color: white;
+    color: #02505A;
+}
+.department-list-bg{
+    background-color: #01524dde;
+    border: 1px solid rgb(167, 166, 166);
+}
+.department-i{
+    color: rgb(1, 216, 1);
+}
+.faq-question{
+    border-bottom: 1px solid rgb(216, 215, 215);
+}
+
+.faq-question h4{
+    font-size: 23px;
+}
+.faq-question i{
+    font-size: 30px;
+}
+/* service mediaquery */
+@media (min-width:360px) and (max-width:759px){
+ .service-title-h1{
+    font-size: 20px;
+    
+}
+.service-title-p{
+    display: none;
+}
+
+.service-hero-checkbox p{
+    font-size: 14px;
+
+}
+.service-hero-img{
+    display: none;
+}
+.service-lets-talk{
+    text-align: center;
+}
+.service-title-h3{
+    font-size: 22px;
+    text-align: center;
+}
+.service-logo .logos p{
+    font-size: 16px;
+    text-align: center;
+}
+.agent-el{
+    font-size: 12px;
+}
+.agent-row-2{
+    font-size:12px ;
+    text-align: center;
+}
+.agent-row-2 span{
+    display: none;
+}
+.agent-row-3 .agent-card-content{
+ display: none;
+}
+.agent-row-3 .header span{
+ display: none;
+}
+.agent-row-5  img{
+    width: 100%;
+}
+.everything-card{
+    background-color: #1d646d;
+    margin: 10px 0;
+    border-radius: 20px;
+  color: white;
+
+}
+.everthing-card-icon img{
+    display: none;
+}
+.everything-card-title h3{
+    font-size: 20px;
+}
+.automation{
+    background-color: #fff8ed;
+}
+.automation-left .row-1 i{
+    display: none;
+}
+.automation-left .row-1::after{
+    display: none;
+}
+.automation-left .row-1{
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.9);
+    border-radius: 20px;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+.automation-left .row-1 h4{
+    font-size: 20px;
+    text-align: start;
+    margin: 10px 0;
+}
+.automation-left .row-1 img{
+    width: 70%;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+.grade-card-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.onboard-title h3{
+    font-size: 22px;
+}
+.faq-title h3{
+    font-size: 28px;
+}
+.faq-question h4{
+    font-size: 16px;
+}
+.faq-question i{
+    font-size: 30px;
+}
+}
+@media (min-width:760px) and (max-width:1023px){
+ .service-title-h1{
+    font-size: 30px;
+    
+}
+.service-title-p{
+    display: none;
+}
+
+
+.service-hero-checkbox p{
+    font-size: 16px;
+
+}
+.service-hero-img{
+    display: none;
+}
+.service-lets-talk{
+    text-align: center;
+}
+.agent-row-1{
+    font-size: 16px;
+}
+.agent-row-2{
+    font-size:16px ;
+    text-align: center;
+}
+.agent-row-3 .card-body p{
+    margin: 10px 0 ;
+}
+.agent-row-5  img{
+    width: 100%;
+}
+.everything-card{
+    background-color: #1d646d;
+    margin: 10px 0;
+    border-radius: 20px;
+    color: white;
+}
+.everthing-card-icon img{
+    display: none;
+}
+.automation{
+    background-color: #fff8ed;
+}
+
+.automation-left .row-1 i{
+    display: none;
+}
+.automation-left .row-1::after{
+    display: none;
+}
+.automation-left .row-1{
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.9);
+    border-radius: 20px;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+.automation-left .row-1 h4{
+    font-size: 25px;
+    text-align: start;
+    margin: 10px 0;
+}
+.automation-left .row-1 img{
+    width: 60%;
+        padding: 10px 0;
+    margin: 0 auto;
+}
+.grade-card-title {
+    font-size: 30px;
+    margin: 10px 0;
+} 
+.onboard-title h3{
+    font-size: 30px;
+}
+}
+@media (min-width:1024px) and (max-width:1339px){
+ 
+.service-hero-checkbox p{
+    font-size: 14px;
+
+}
+.agent-row-1{
+    font-size: 14px;
+}  
+.agent-row-3 .card-body p{
+    margin: 10px 0 ;
+    font-size: 16px;
+}
+
+}
